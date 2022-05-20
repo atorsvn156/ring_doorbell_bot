@@ -8,7 +8,7 @@ const { RingApi } = require('ring-client-api'),
   { promisify } = require('util')
 
 /* config */
-const BOT_CONFIG = require("config/config.json");
+const BOT_CONFIG = require("config.json");
 
 // Create a new client instance
 global.client = new Client({ intents: [Intents.FLAGS.GUILDS] });
